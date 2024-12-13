@@ -5,7 +5,7 @@ import time
 url = 'https://api.semanticscholar.org/graph/v1/paper/batch'
 query_params = {"fields": "title,authors,citationCount,references,url,fieldsOfStudy,year,isOpenAccess,externalIds,paperId,publicationDate,embedding"}
 
-api_key = "9zJhKmoKKZ5OyKBkPj6rK6zWa1oxTizegHHhNT6g"
+api_key = "your_api_key"
 headers = {"x-api-key": api_key}
 
 csv_file_path = 'C:\\Users\\alaay\\Documents\\Programs\\DATA\\Semantic Scholar Data\\Graph Analysis\\scr\\data\\sample.csv'
